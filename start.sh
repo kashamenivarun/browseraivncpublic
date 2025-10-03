@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f /tmp/.X99-lock
+
 # Start Xvfb (Virtual framebuffer)
 echo "🖥️ Starting virtual display..."
 Xvfb :99 -screen 0 ${SCREEN_WIDTH}x${SCREEN_HEIGHT}x${SCREEN_DEPTH} -ac +extension GLX +render -noreset &

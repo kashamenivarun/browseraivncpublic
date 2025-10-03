@@ -4,3 +4,8 @@ Pillow==10.0.1
 selenium==4.16.0
 webdriver-manager==4.0.1
 Flask==3.0.0 
+
+google-generativeai
+pydantic>=2.0
+browser_use_sdk
+python-dotenv

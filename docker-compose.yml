@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   # Automation Container (Student's submission)
@@ -24,6 +24,8 @@ services:
       - SCREEN_HEIGHT=1080
       - SCREEN_DEPTH=24
       - BROWSER=chrome
+      - QUERY=Given an HMM booking ID 'SINI25432400', retrieve the voyage number and arrival date from seacargotracking.net.
+
     
     # Keep container running
     stdin_open: true
